@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "line_length"
+version = "0.1.0"
+description = ""
+authors = ["Dmitry Smirnov <smirnov@ura.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.20.1"
+matplotlib = "^3.3.4"
+PyQt5 = "^5.15.2"
+Django = "^3.1.6"
+ariadne = "^0.12.0"
+gunicorn = "^20.0.4"
+python-decouple = "^3.4"
+django-prometheus = "^2.1.0"
+pika = "^1.2.0"
+tenacity = "^6.3.1"
+dramatiq = "^1.10.0"
+django-dramatiq = "^0.9.1"
+requests = "^2.25.1"
+feedgen = "^0.9.0"
+APScheduler = "^3.7.0"
+scipy = "^1.6.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
